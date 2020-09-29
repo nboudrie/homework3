@@ -26,7 +26,8 @@ main{
 h1{
   color: #c12258;
   font-size: 2em;
-  margin: auto;
+  text-align: center;
+
   line-height: 2;
 }
 
@@ -58,9 +59,11 @@ table{
 .colhead{
   background-color: #7e0830;
   color: #FFFFFF;
+  text-align: center;
   margin: auto;
   min-width: 125px;
   padding: 10px;
+  text-transform: uppercase;
 }
 
 .rowhead{
@@ -91,3 +94,6 @@ footer{
   min-height: 75px;
 }
 
+:focus{
+  border: 3px, #417243;
+}
