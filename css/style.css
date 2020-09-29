@@ -26,6 +26,9 @@ main{
 h1{
   color: #c12258;
   font-size: 2em;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 2;
 }
 
 caption{
@@ -49,19 +52,26 @@ a:link{
 
 table{
     border: 2px solid #000000;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .colhead{
   background-color: #7e0830;
   color: #FFFFFF;
+  margin: auto;
+  min-width: 125px;
+  padding: 10px;
 }
 
 .rowhead{
-
+  border: 2px, #000000;
 }
 
 td{
-  
+  text-align: center;
+  border-top: 2px, #000000;
+  padding: 10px;
 }
 
 tr{
