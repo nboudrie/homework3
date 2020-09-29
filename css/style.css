@@ -17,6 +17,7 @@ body{
   background-position: center;
   background-image: url("../images/pigeon-background.JPEG");
   background-color: #dddddd;
+  background-repeat: no-repeat;
 }
 
 main{
@@ -77,15 +78,21 @@ td{
   padding: 10px;
 }
 
-tr{
+tr:nth-child(even){
+  background-color: #d1d1d1;
+}
 
+tr:nth-child(odd){
+  background-color: transparent;
 }
 
 *{
 
 }
 
-thead tr:first-child th:first-child{}
+thead tr:first-child th:first-child{
+
+}
 
 footer{
   width:100%;
